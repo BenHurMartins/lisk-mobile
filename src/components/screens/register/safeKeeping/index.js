@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { translate } from 'react-i18next';
-import { SafeAreaView } from 'react-navigation';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Switch from 'react-native-switch-pro';
 import styles from './styles';
 import { B, P } from '../../../shared/toolBox/typography';

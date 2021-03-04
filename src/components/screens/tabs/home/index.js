@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Animated, StatusBar, Platform } from 'react-native';
 import connect from 'redux-connect-decorator';
-import { withNavigationFocus } from 'react-navigation';
+import { withNavigationFocus } from '@react-navigation/compat';
 import {
   transactionsReset as transactionsResetAction,
   transactionsLoaded as transactionsLoadedAction,

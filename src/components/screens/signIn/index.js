@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import FingerprintScanner from 'react-native-fingerprint-scanner';
 import SplashScreen from 'react-native-splash-screen';
-import { NavigationActions } from 'react-navigation';
+import { CommonActions } from '@react-navigation/native';
 import QuickActions from 'react-native-quick-actions'; // eslint-disable-line
 import FingerprintOverlay from '../../shared/fingerprintOverlay';
 import styles from './styles';
@@ -174,7 +174,7 @@ class SignIn extends React.Component {
       this.navigateToDeepLink(this.deepLinkURL);
     } else {
       this.props.navigation.reset(
-        [NavigationActions.navigate({ routeName: 'Main' })],
+        [CommonActions.navigate({ routeName: 'Main' })],
         0
       );
     }
