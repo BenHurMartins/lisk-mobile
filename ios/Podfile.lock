@@ -208,6 +208,8 @@ PODS:
     - React
   - react-native-randombytes (3.6.0):
     - React-Core
+  - react-native-safe-area-context (3.1.9):
+    - React-Core
   - react-native-shake (3.5.0):
     - React-Core
   - react-native-splash-screen (3.2.0):
@@ -257,6 +259,8 @@ PODS:
     - React
   - RNCAsyncStorage (1.12.1):
     - React-Core
+  - RNCMaskedView (0.1.10):
+    - React
   - RNDeviceInfo (4.0.1):
     - React
   - RNGestureHandler (1.10.3):
@@ -312,6 +316,7 @@ DEPENDENCIES:
   - react-native-fingerprint-scanner (from `../node_modules/react-native-fingerprint-scanner`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-randombytes (from `../node_modules/react-native-randombytes`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-shake (from `../node_modules/react-native-shake`)
   - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
   - react-native-udp (from `../node_modules/react-native-udp`)
@@ -330,6 +335,7 @@ DEPENDENCIES:
   - ReactNativeKeyboardTrackingView (from `../node_modules/react-native-keyboard-tracking-view`)
   - ReactNativePermissions (from `../node_modules/react-native-permissions`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNKeychain (from `../node_modules/react-native-keychain`)
@@ -398,6 +404,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-community/netinfo"
   react-native-randombytes:
     :path: "../node_modules/react-native-randombytes"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
   react-native-shake:
     :path: "../node_modules/react-native-shake"
   react-native-splash-screen:
@@ -432,6 +440,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-permissions"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
+  RNCMaskedView:
+    :path: "../node_modules/@react-native-community/masked-view"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNGestureHandler:
@@ -487,6 +497,7 @@ SPEC CHECKSUMS:
   react-native-fingerprint-scanner: 388acb4969b681a3f63fbec0c4b740d2b775a1dc
   react-native-netinfo: a59d8426a8484f739fe3a95dd6ad5af1435db05f
   react-native-randombytes: b6677f7d495c27e9ee0dbd77ebc97b3c59173729
+  react-native-safe-area-context: b6e0e284002381d2ff29fa4fff42b4d8282e3c94
   react-native-shake: 41a1ea8ec541fccf3f01566edef8d3cb722b00e3
   react-native-splash-screen: 200d11d188e2e78cea3ad319964f6142b6384865
   react-native-udp: ff9d13e523f2b58e6bc5d4d32321ac60671b5dc9
@@ -504,6 +515,7 @@ SPEC CHECKSUMS:
   ReactNativeKeyboardTrackingView: 02137fac3b2ebd330d74fa54ead48b14750a2306
   ReactNativePermissions: 7cfad56d13c8961cd2a1005b4955b1400c79ef3e
   RNCAsyncStorage: b03032fdbdb725bea0bd9e5ec5a7272865ae7398
+  RNCMaskedView: 5a8ec07677aa885546a0d98da336457e2bea557f
   RNDeviceInfo: 687c1b2ab6d86ff1ca1208783320cd144138c7f2
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNKeychain: 3aa3cf891a09a0d18d306862ab2bb9e106079b24
