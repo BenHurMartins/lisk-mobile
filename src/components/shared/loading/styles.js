@@ -1,5 +1,5 @@
 import { Platform, Dimensions } from 'react-native';
-import { Header } from 'react-navigation';
+// import { Header } from 'react-navigation';
 import { colors } from '../../../constants/styleGuide';
 import { merge } from '../../../utilities/helpers';
 import { deviceType } from '../../../utilities/device';
@@ -7,6 +7,8 @@ import { deviceType } from '../../../utilities/device';
 let wrapper = {
   backgroundColor: colors.light.ultramarineBlue,
 };
+
+const Header = { HEIGHT: 40 };
 
 if (Platform.OS === 'ios') {
   wrapper = {

@@ -281,8 +281,8 @@ PODS:
     - React-Core
   - RNSVG (8.0.11):
     - React
-  - RNVectorIcons (6.7.0):
-    - React
+  - RNVectorIcons (8.1.0):
+    - React-Core
   - SajjadBlurOverlay (1.0.0):
     - React
   - TcpSockets (3.3.2):
@@ -526,7 +526,7 @@ SPEC CHECKSUMS:
   RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
   RNScreens: f7ad633b2e0190b77b6a7aab7f914fad6f198d8d
   RNSVG: c3d27cf99f8484d3d8f8bb017b5438fd321267cf
-  RNVectorIcons: 368d6d8b8301224e5ffb6254191f4f8876c2be0d
+  RNVectorIcons: 31cebfcf94e8cf8686eb5303ae0357da64d7a5a4
   SajjadBlurOverlay: 4366a3417954b7d4a8a70682e0c43959ff76a3cb
   TcpSockets: 14306fb79f9750ea7d2ddd02d8bed182abb01797
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b

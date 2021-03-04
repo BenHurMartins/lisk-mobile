@@ -1,9 +1,10 @@
 import { Platform, Dimensions, NativeModules } from 'react-native';
-import { Header } from 'react-navigation';
+// import { Header } from 'react-navigation';
 import DeviceInfo from 'react-native-device-info';
 import { Appearance } from 'react-native-appearance/src/index.tsx';
 
 const { width, height } = Dimensions.get('window');
+const Header = { HEIGHT: 40 };
 
 /**
  * Returns a simple string defining the device type
