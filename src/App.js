@@ -1,9 +1,10 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { StatusBar } from 'react-native';
 import { Provider } from 'react-redux';
 import { I18nextProvider } from 'react-i18next';
 import connect from 'redux-connect-decorator';
-import Router from './components/screens/router';
+// import Router from './components/screens/router';
 import Loading from './components/shared/loading';
 import store from './store/index';
 import ThemeContext from './contexts/theme';
@@ -11,6 +12,7 @@ import { themes } from './constants/styleGuide';
 import i18n from '../locales';
 import Alert from './components/shared/alert';
 import Modal from './components/shared/modal';
+
 
 @connect(
   state => ({
@@ -28,7 +30,7 @@ class ThemedApp extends React.Component {
             barStyle={theme === themes.light ? 'dark-content' : 'light-content'}
           />
           <Loading />
-          <Router />
+          {/* <Router /> */}
           <Alert />
           <Modal />
         </I18nextProvider>
